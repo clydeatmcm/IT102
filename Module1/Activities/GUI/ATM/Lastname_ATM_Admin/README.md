@@ -5,12 +5,10 @@
 ## 📂 Project Directory Structure
 
 ```
-BankAccountApp/
+Lastname_ATM_Admin/
 │
 ├── Models/
 │   └── Account.cs
-│
-├── Data/
 │   └── AppDbContext.cs
 │
 ├── ViewModels/
@@ -24,12 +22,12 @@ BankAccountApp/
 │   └── (EF Core migration files auto-generated)
 │
 ├── Program.cs
-└── BankAccountApp.csproj
+└── Lastname_ATM_Admin.csproj
 ```
 
 ---
 
-### 📝 Explanation (2–3 statements per folder)
+### Outline
 
 * **Models/** → Contains **entities (classes)** like `Account.cs` that represent your database tables. This is your **blueprint for data**.
 * **Data/** → Contains `AppDbContext.cs`, which acts as the **bridge between C# and MySQL** using Entity Framework Core.
@@ -41,7 +39,7 @@ BankAccountApp/
 
 ---
 
-📌 With this structure, students clearly see **Separation of Concerns**:
+With this structure, clearly established the **Separation of Concerns**:
 
 * **Data (Model)** = Database
 * **UI (View)** = Windows Forms
