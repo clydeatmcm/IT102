@@ -445,7 +445,7 @@ The exact index depends on the contents of `transactions.txt`.
 
 # Complete Expected Output
 
-## Option 1 — Check Balance
+## Test Case 1 — Check Balance
 
 ```text
 ==============================
@@ -464,7 +464,7 @@ Current Balance: ₱10000.00
 
 ---
 
-## Option 2 — Deposit
+## Test Case 2 — Deposit
 
 When the user enters `1000`:
 
@@ -495,7 +495,7 @@ Amount: ₱1000.0
 
 ---
 
-## Option 3 — View History
+## Test Case 3 — View History
 
 If the transaction file already contains the deposit:
 
@@ -519,7 +519,7 @@ Amount: ₱1000.0
 
 ---
 
-## Option 4 — Analyze Transactions
+## Test Case 4 — Analyze Transactions
 
 ```text
 ==============================
