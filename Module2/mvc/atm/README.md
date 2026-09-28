@@ -10,9 +10,13 @@ The redesigned database has exactly **5 tables**:
 4. `transactions` - deposit and withdrawal history
 5. `atm_sessions` - successful/failed ATM login attempts
 
-## Preview
+## Project Preview
 
 ![demo](https://raw.githubusercontent.com/clydeatmcm/IT102/refs/heads/main/Module2/mvc/atm/mini_atm_demo_preview.gif)
+
+## Database Design
+
+![database](https://raw.githubusercontent.com/clydeatmcm/IT102/refs/heads/main/Module2/mvc/atm/mini_atm_demo_database.png)
 
 ## 1. Beginner Database Rule
 
