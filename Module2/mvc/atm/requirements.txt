@@ -1,0 +1,5 @@
+streamlit
+supabase
+bcrypt
+python-dotenv
+websockets>=13.0
