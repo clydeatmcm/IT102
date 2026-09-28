@@ -104,7 +104,7 @@ Install the packages:
 python -m pip install -r requirements.txt
 ```
 
-## 4. Test the WebSockets Fix
+## 4. Test the WebSockets Fix (Optional)
 
 Run:
 
@@ -145,6 +145,8 @@ SUPABASE_URL=YOUR_SUPABASE_URL
 SUPABASE_KEY=YOUR_SUPABASE_KEY
 ```
 
+![database](https://raw.githubusercontent.com/clydeatmcm/IT102/refs/heads/main/Module2/mvc/atm/mvc_supabase.png)
+
 ### Option B - Streamlit TOML
 
 Copy `.streamlit/secrets.toml.example` and rename the copy to `.streamlit/secrets.toml`.
@@ -175,6 +177,8 @@ Starting Balance: PHP 10,000.00
 ```
 
 The database does not store `1234` directly. `bcrypt` stores a hash in `atm_cards.pin_hash`.
+
+![database](https://raw.githubusercontent.com/clydeatmcm/IT102/refs/heads/main/Module2/mvc/atm/mvc_create_demo.png)
 
 ## 8. Run the ATM
 
